@@ -1,0 +1,24 @@
+git init
+npm init
+npm i express
+create index.js
+
+make sure --> var app = require('express')(); --> otherwise app.get will not work
+node index
+
+npm i -D nodemon //to add nodemon in dev dependencies NOT in PROD
+
+add be
+low in package.json-->
+"scripts": {
+    "start": "node index",
+    "dev":"nodemon index"
+  }
+
+then run -->
+npm run dev
+
+install below -->
+npm i ejs
+npm i express-ejs-layouts
+
