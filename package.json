@@ -2,10 +2,10 @@
   "name": "expresscrashcourse",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "anchor.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node anchor",
+    "dev": "nodemon anchor"
   },
   "author": "",
   "license": "ISC",
